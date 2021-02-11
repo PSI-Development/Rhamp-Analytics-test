@@ -29,6 +29,7 @@ jobs:
           with:
             resource-group: ${{ secrets.RESOURCE_GROUP }}
             dns-name-label: rhamp-bp-analytics-${{ github.run_number }}
+            ports: 5000
             image: ${{ secrets.REGISTRY_LOGIN_SERVER }}/rhampbpanalytics:${{ github.sha }}
             registry-login-server: ${{ secrets.REGISTRY_LOGIN_SERVER }}
             registry-username: ${{ secrets.REGISTRY_USERNAME }}
