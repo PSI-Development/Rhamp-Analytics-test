@@ -1,5 +1,5 @@
 {
     "hbpm":{
-        "bp_db_url":"http://rhamp-backend03.southeastasia.azurecontainer.io/bp/filtered/phn/"
+        "bp_db_url":"http://backend:80/bp/filtered/phn/"
         }
 }
